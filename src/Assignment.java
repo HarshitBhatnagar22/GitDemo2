@@ -15,6 +15,9 @@ public class Assignment {
 		WebDriver driver = new ChromeDriver();
 	    driver.manage().window().maximize();
 	    System.out.println("first automation assignment");
+	    System.out.println("first automation2 assignment");
+	    System.out.println("first automation1 assignment");
+
 		driver.get("http://qaclickacademy.com/practice.php");
 		
 		driver.findElement(By.xpath("//*[@id='checkbox-example']/fieldset/label[2]/input")).click();
@@ -43,6 +46,8 @@ public class Assignment {
     System.out.println("Something wrong with execution");
 
 }
+	
+	
 		
 			 
 			
