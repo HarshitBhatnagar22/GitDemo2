@@ -23,6 +23,7 @@ public class Alerts {
 		Thread.sleep(2000L);
 		System.out.println(driver.switchTo().alert().getText());
 		System.out.println("hello world");
+		System.out.println("hello world2");
 		driver.switchTo().alert().dismiss();
 
 		
