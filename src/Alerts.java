@@ -9,6 +9,8 @@ public class Alerts {
 		// TODO Auto-generated method stub
 		String text = "Rahul Shetty";
 		String text2 = "Hello World";
+		System.out.println("hello world word");
+
 		System.setProperty("webdriver.chrome.driver", "C://Work//chromedriver.exe");
 		WebDriver driver = new ChromeDriver();
 		driver.get("https://rahulshettyacademy.com/AutomationPractice/");
@@ -23,6 +25,8 @@ public class Alerts {
 		Thread.sleep(2000L);
 		System.out.println(driver.switchTo().alert().getText());
 		System.out.println("hello new world");
+		System.out.println("hello world");
+		System.out.println("hello world2");
 		driver.switchTo().alert().dismiss();
 
 		
