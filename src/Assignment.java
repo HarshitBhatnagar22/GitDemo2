@@ -14,6 +14,7 @@ public class Assignment {
 		System.setProperty("webdriver.chrome.driver", "C://Work//chromedriver.exe");
 		WebDriver driver = new ChromeDriver();
 	    driver.manage().window().maximize();
+	    System.out.println("first automation assignment");
 		driver.get("http://qaclickacademy.com/practice.php");
 		
 		driver.findElement(By.xpath("//*[@id='checkbox-example']/fieldset/label[2]/input")).click();
