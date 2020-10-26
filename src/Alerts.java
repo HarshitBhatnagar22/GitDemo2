@@ -22,6 +22,7 @@ public class Alerts {
 		driver.findElement(By.id("confirmbtn")).click();
 		Thread.sleep(2000L);
 		System.out.println(driver.switchTo().alert().getText());
+		System.out.println("hello world");
 		driver.switchTo().alert().dismiss();
 
 		
